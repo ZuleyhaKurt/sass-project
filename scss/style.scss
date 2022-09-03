@@ -4,4 +4,12 @@
 
 @import './component/footer', './component/nav', './component/responsive';
 
-@import './pages/about', './pages/contacts', './pages/home', './pages/projects';
+@import './pages/about', './pages/contact', './pages/home', './pages/project';
+
+body{
+    font-family: $font-family;
+    line-height: 1;
+    color: $tect-color;
+    background-color: $primary-color;
+    height: 100vh;
+}
